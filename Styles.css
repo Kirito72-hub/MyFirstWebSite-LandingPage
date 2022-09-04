@@ -8,22 +8,28 @@ head {
     height: 120px;
 }
 
+.L1 {
+    background-color: #1F2937;
+    color: aliceblue;
+}
+
 .L1Header {
     display: flex;
     justify-content: space-between;
     padding: 0px 0px 16px 16px;
-    background-color: brown;
 }
 
 .L1HeaderRight {
     display: flex;
     gap: 50px;
-    font-size: 28px;
+    font-size: 24px;
     margin: 16px 26px 0px 0px;
+    
 }
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 .L1Content {
@@ -38,19 +44,17 @@ a {
     font-size: 25px;
 }
 
-.L1ContentRight {
-    
-}
-
 .L1ContentImage{
     width: 600px;
     height: 400px;
 }
 
 .L1 button {
-    color: aqua;
-    background-color: blueviolet;
-    font-size: 32px;
-    border-radius: 12px;
+    color: white;
+    background-color: #3882F6;
+    padding: 10px 24px;
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: center;
 }
 
