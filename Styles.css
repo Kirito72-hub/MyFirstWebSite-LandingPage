@@ -61,7 +61,7 @@ a {
 }
 
 .L2 {
-    background-color: #3882F6;
+    background-color: white;
     display: flex;
     flex-direction: column;
 }
@@ -74,7 +74,7 @@ a {
 
 .L2Content img {
     width: 250px;
-    height: 350px;
+    height: 400px;
 }
 
 .L2Content div {
@@ -85,7 +85,7 @@ a {
 
 .L2Content {
     display: flex;
-    flex: 1;
+    flex: 1 1 auto;
     justify-content: space-between;
     margin: 32px 130px;
     font-size: 22px;
