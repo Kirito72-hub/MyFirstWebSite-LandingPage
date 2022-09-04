@@ -1,6 +1,7 @@
 head {
     display: flex;
     flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .Logo {
@@ -11,6 +12,7 @@ head {
 .L1 {
     background-color: #1F2937;
     color: aliceblue;
+    padding: 18px;
 }
 
 .L1Header {
@@ -58,3 +60,33 @@ a {
     text-align: center;
 }
 
+.L2 {
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: column;
+}
+
+.L2Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.L2Content img {
+    width: 250px;
+    height: 350px;
+}
+
+.L2Content div {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.L2Content {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin: 32px 130px;
+    font-size: 22px;
+}
