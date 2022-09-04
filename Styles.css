@@ -1,0 +1,56 @@
+head {
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo {
+    width: 300px;
+    height: 120px;
+}
+
+.L1Header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 16px 16px;
+    background-color: brown;
+}
+
+.L1HeaderRight {
+    display: flex;
+    gap: 50px;
+    font-size: 28px;
+    margin: 16px 26px 0px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.L1Content {
+    display: flex;
+    margin: 16px 0px 16px 16px;
+    justify-content: center;
+    gap: 300px;
+}
+
+.L1ContentLeft {
+    max-width: 500px;
+    font-size: 25px;
+}
+
+.L1ContentRight {
+    
+}
+
+.L1ContentImage{
+    width: 600px;
+    height: 400px;
+}
+
+.L1 button {
+    color: aqua;
+    background-color: blueviolet;
+    font-size: 32px;
+    border-radius: 12px;
+}
+
