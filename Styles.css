@@ -90,3 +90,27 @@ a {
     margin: 32px 130px;
     font-size: 22px;
 }
+
+.L3 {
+    flex-direction: column;
+    background-color: #E5E7EB;
+    width: auto;
+    padding: 150px;
+}
+
+.L3 p {
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+
+.L3 b {
+    display: flex;
+    font-size: 16px;
+    justify-content: end;
+    padding-top: 80px;
+}
