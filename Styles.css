@@ -51,7 +51,7 @@ a {
     height: 400px;
 }
 
-.L1 button {
+button {
     color: white;
     background-color: #3882F6;
     padding: 10px 24px;
@@ -113,4 +113,43 @@ a {
     font-size: 16px;
     justify-content: end;
     padding-top: 80px;
+}
+
+.L4 {
+    background-color: white;
+    padding: 140px;
+    display: flex;
+    
+    justify-content: center;
+}
+
+.L4Content {
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    width: 1150px;
+    height: 180px;
+    border-radius: 10px;
+    justify-content: space-around;
+
+}
+
+.L4ContentLeft {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    justify-content: center;
+    color: white;
+}
+
+.L4ContentRight {
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+
+.L4 h2,p {
+    padding: 0px;
+    margin: 0px;
 }
