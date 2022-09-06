@@ -1,7 +1,10 @@
-head {
+body {
     display: flex;
     flex-direction: column;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px;
+    margin: 0px;
+
 }
 
 .Logo {
@@ -12,7 +15,6 @@ head {
 .L1 {
     background-color: #1F2937;
     color: aliceblue;
-    padding: 18px;
 }
 
 .L1Header {
@@ -51,13 +53,15 @@ a {
     height: 400px;
 }
 
-button {
+.L1 button {
     color: white;
     background-color: #3882F6;
     padding: 10px 24px;
     font-size: 18px;
     border-radius: 10px;
     text-align: center;
+    margin: 26px 0px;
+    border: none;
 }
 
 .L2 {
@@ -152,4 +156,34 @@ button {
 .L4 h2,p {
     padding: 0px;
     margin: 0px;
+}
+
+.L4 button {
+    color: white;
+    background-color: #3882F6;
+    padding: 10px 24px;
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 26px 0px;
+    border: 2px solid white;
+}
+
+button:hover {
+    color: white;
+    opacity: 0.6;
+}
+
+button:active {
+    opacity: 1;
+}
+
+.L5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 30px;
+    font-size: 20px;
+    color: white;
 }
